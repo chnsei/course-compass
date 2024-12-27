@@ -1,0 +1,199 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Compass - Your Learning Guide</title>
+    <!-- Link to Google Fonts for fancy fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <style>
+        /* Basic reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Global Styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #F5F5DC; /* Beige background */
+            color: #333333; /* Dark gray text */
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        /* Header Section */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #FFFFFF; /* White background */
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+            border-radius: 10px;
+            margin-bottom: 30px; /* Spacing below the header */
+        }
+
+        header .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;  /* Set a container width for the logo section */
+            height: 200px; /* Set height for the container */
+        }
+
+        header .logo iframe {
+            width: 200px;  /* Larger width */
+            height: 200px; /* Larger height */
+            border-radius: 5px;
+        }
+
+        header .channel-info h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.5em;
+            color: #5D8AA8; /* Soft Blue for the channel name */
+            letter-spacing: 1px;
+        }
+
+        header .channel-info p {
+            font-size: 1.2em;
+            color: #D96C6C; /* Soft Pink for the group text */
+            margin-top: 5px;
+        }
+
+        /* Introduction Video Section */
+        #intro-video {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        #intro-video iframe {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+        }
+
+        /* Tagline Section */
+        #tagline {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 1.6em;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            color: #F5A9B8; /* Light Pink for tagline */
+        }
+
+        /* YouTube Content Section */
+        #youtube-content {
+            margin: 40px 0;
+        }
+
+        #youtube-content h2 {
+            font-size: 2.8em;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #5D8AA8; /* Soft Blue for titles */
+            font-family: 'Playfair Display', serif;
+        }
+
+        .video-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .video iframe {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .video iframe:hover {
+            transform: scale(1.05);
+        }
+
+        /* Promotional Poster Section */
+        #promotional-poster {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        /* Embed Pinterest iframe directly */
+        #promotional-poster iframe {
+            width: 236px;
+            height: 336px;
+            border: none;
+        }
+
+        /* Footer Section */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1em;
+            color: #5D8AA8; /* Soft Blue for footer text */
+            font-family: 'Roboto', sans-serif;
+        }
+
+        footer p {
+            color: #D96C6C; /* Soft Pink for footer text */
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <!-- Pinterest iframe placed here as the logo, centered and larger size -->
+            <iframe src="https://assets.pinterest.com/ext/embed.html?id=1026891152531712969" frameborder="0" scrolling="no"></iframe>
+        </div>
+        <div class="channel-info">
+            <h1>Course Compass</h1>
+            <p>Group Number: 5</p>
+            <p>Group Members: Ayesha B. Juera, Joshua Sarmiento, Gierald Enzo Ramirez, Senyorita Zidane Balala</p>
+        </div>
+    </header>
+
+    <!-- Introduction Video Section -->
+    <section id="intro-video">
+        <h2>Welcome to Our Channel!</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/18BLEjOAgN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Tagline Section -->
+    <section id="tagline">
+        <h3>"Solutions for Any Situation, Anytime."</h3>
+    </section>
+
+    <!-- YouTube Content Section -->
+    <section id="youtube-content">
+        <h2>Check Out Our Latest Videos:</h2>
+        <div class="video-gallery">
+            <div class="video">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/18BLEjOAgN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/18BLEjOAgN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="video">
+                <iframe width="320" height="180" src="https://www.youtube.com/embed/18BLEjOAgN0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotional Poster Section -->
+    <section id="promotional-poster">
+        <h2>Check Out Our Latest Promotion!</h2>
+        <!-- Pinterest iframe added here -->
+        <iframe src="https://assets.pinterest.com/ext/embed.html?id=1026891152531713066" height="336" width="236" frameborder="0" scrolling="no"></iframe>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Course Compass. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
